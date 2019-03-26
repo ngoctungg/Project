@@ -40,6 +40,15 @@ namespace NATHSHOP.Client {
         protected global::System.Web.UI.WebControls.Label lblTongTien;
         
         /// <summary>
+        /// btnTK control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnTK;
+        
+        /// <summary>
         /// txtTK control.
         /// </summary>
         /// <remarks>
@@ -47,15 +56,6 @@ namespace NATHSHOP.Client {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTK;
-        
-        /// <summary>
-        /// btnTK control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnTK;
         
         /// <summary>
         /// pnlchuadangnhap control.
@@ -76,15 +76,6 @@ namespace NATHSHOP.Client {
         protected global::System.Web.UI.WebControls.Panel pnldadangnhap;
         
         /// <summary>
-        /// hplLogout control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton hplLogout;
-        
-        /// <summary>
         /// lblDangNhap control.
         /// </summary>
         /// <remarks>
@@ -92,6 +83,15 @@ namespace NATHSHOP.Client {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblDangNhap;
+        
+        /// <summary>
+        /// hplLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton hplLogout;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

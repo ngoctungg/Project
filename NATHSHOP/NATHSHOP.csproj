@@ -64,6 +64,7 @@
     <Content Include="Form\css\cart_shopping.css" />
     <Content Include="Form\css\Common.css" />
     <Content Include="Form\css\slide.css" />
+    <Content Include="Form\css\style.css" />
     <Content Include="Form\DangKi.aspx" />
     <Content Include="Form\DangNhap.aspx" />
     <Content Include="Form\DatHang.aspx" />
@@ -88,6 +89,7 @@
     <Content Include="Form\Images\3.jpg" />
     <Content Include="Form\Images\4.jpg" />
     <Content Include="Form\Images\adidas1.jpg" />
+    <Content Include="Form\Images\BULLBOXER-SHOES-WEBSITE-CONTENT-AW18-SHOE-CARE-HEADER.jpg" />
     <Content Include="Form\Images\favion1.png" />
     <Content Include="Form\Images\gif1.gif" />
     <Content Include="Form\Images\giohang.png" />

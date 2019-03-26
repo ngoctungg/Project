@@ -1,0 +1,48 @@
+﻿/*header*/
+.header {
+    width: 100vw;
+}
+
+.jumbotron-bg__img {
+    background-image: url("../Images/BULLBOXER-SHOES-WEBSITE-CONTENT-AW18-SHOE-CARE-HEADER.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-nav {
+}
+
+.navbar {
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 0px;
+}
+
+.dropdown-item:hover {
+    background-color: #7a7e83;
+}
+
+.form-radius {
+    border-radius: 20px;
+    background-color: #f1f3f5;
+    border: none;
+}
+
+.input-group {
+    background-color: #f1f3f5;
+    border-radius: 20px;
+    top: 8px;
+}
