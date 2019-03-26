@@ -7,6 +7,7 @@
 		Những lo lắng của bạn khi mua sắm giày dép:
 	</p>
 	<p style="font-size: large">
+		Delete
 		Những lo lắng của bạn khi mua sắm giày dép:
 - Mỗi loại giày khác nhau có cùng một size nhưng kích cỡ lại khác nhau. 
         <br />
