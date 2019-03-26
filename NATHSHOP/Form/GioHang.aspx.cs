@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace NATHSHOP.Client
+namespace NATHSHOP.Form
 {
     public partial class GioHang : System.Web.UI.Page
     {
@@ -18,7 +18,7 @@ namespace NATHSHOP.Client
             {
                 if (Session["GioHang"] == null)
                 {
-                    Response.Redirect("~/Client/Default.aspx");
+                    Response.Redirect("~/Form/Default.aspx");
                     return;
                 }
 
@@ -146,7 +146,7 @@ namespace NATHSHOP.Client
 
         protected void btnDatHang_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Client/DatHang.aspx");
+            Response.Redirect("~/Form/DatHang.aspx");
         }
 
         protected void btnXoa_Click(object sender, EventArgs e)
@@ -174,7 +174,7 @@ namespace NATHSHOP.Client
 
         protected void btnmuatiep_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Client/SanPham.aspx");
+            Response.Redirect("~/Form/SanPham.aspx");
         }
 
 

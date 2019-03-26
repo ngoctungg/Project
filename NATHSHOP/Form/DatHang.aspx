@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="DatHang.aspx.cs" Inherits="NATHSHOP.Client.DatHang" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="DatHang.aspx.cs" Inherits="NATHSHOP.Form.DatHang" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<div style="padding: 15px 5px 5px 5px; width: 1216px; margin: auto;">
@@ -110,11 +110,6 @@
 						<asp:RequiredFieldValidator ID="RequiredFiealdValidator2" runat="server"
 							ErrorMessage="Vui lòng nhập ngày giao hàng bạn muốn"
 							ControlToValidate="txtNgayGiao" ForeColor="Red"></asp:RequiredFieldValidator>
-						<br />
-						<asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server"
-							ControlToValidate="txtNgayGiao" ErrorMessage="Nhập sai định dạng ngày tháng"
-							ValidationExpression="^(19|20)\d\d[/ /.](0[1-9]|1[012])[/ /.](0[1-9]|[12][0-9]|3[01])$"
-							ForeColor="Red"></asp:RegularExpressionValidator>
 						<br />
 						<asp:Label ID="lblNgayGiaoHang" runat="server" ForeColor="Red"></asp:Label>
 					</td>

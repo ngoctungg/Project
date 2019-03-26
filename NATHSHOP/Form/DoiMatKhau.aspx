@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="DoiMatKhau.aspx.cs" Inherits="NATHSHOP.Client.DoiMatKhau" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="DoiMatKhau.aspx.cs" Inherits="NATHSHOP.Form.DoiMatKhau" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="width:41%; margin:auto;">
         <asp:Panel ID="pnlDangNhap" runat="server">

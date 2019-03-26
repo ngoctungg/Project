@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NATHSHOP.Client {
+namespace NATHSHOP.Form {
     
     
     public partial class Default {

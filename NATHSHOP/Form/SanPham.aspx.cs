@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace NATHSHOP.Client
+namespace NATHSHOP.Form
 {
     public partial class SanPham : System.Web.UI.Page
     {

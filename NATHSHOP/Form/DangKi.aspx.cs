@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace NATHSHOP.Client
+namespace NATHSHOP.Form
 {
     public partial class DangKi : System.Web.UI.Page
     {
@@ -63,7 +63,7 @@ namespace NATHSHOP.Client
                             kh.SODIENTHOAI = txtDienthoai.Text;
                             dao.GhiThongTinKhach(kh);
                             lblThongBao.Text = kh.TENDANGNHAP + " ! Đăng kí thành công .";
-                            Response.Redirect("~/Client/Default.aspx");
+                            Response.Redirect("~/Form/Default.aspx");
 
                         }
             }

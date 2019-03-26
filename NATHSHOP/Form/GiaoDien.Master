@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GiaoDien.master.cs" Inherits="NATHSHOP.Client.GiaoDien" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GiaoDien.master.cs" Inherits="NATHSHOP.Form.GiaoDien" %>
 
 <!DOCTYPE html>
 
@@ -246,12 +246,12 @@
 					<li class="nav-item">
 						<div class="input-group mb-3">
 							<div class="input-group-prepend">
-								<!-- <button class="btn " type="submit"><i class="fas fa-search"></i></button> -->
+								
 								<asp:LinkButton runat="server" ID="btnTK" OnClick="btnTK_Click" CssClass="btn">
                             <i class="fas fa-search"></i>
 								</asp:LinkButton>
 							</div>
-							<!-- <input type="text" class="form-control form-radius" placeholder="Sneaker"> -->
+							
 							<asp:TextBox runat="server" ID="txtTK" placeholder="Nhap Tim Kiem..."
 								CssClass="form-control form-radius">
 							</asp:TextBox>
@@ -281,12 +281,6 @@
 						</li>
 					</ul>
 				</asp:Panel>
-				<!-- <li class="nav-item">
-                <a href="#" class="nav-link">Đăng Nhập</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Đăng Ký</a>
-            </li> -->
 
 			</nav>
 			<header>

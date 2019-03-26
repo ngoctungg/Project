@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="ChiTietSanPham.aspx.cs" Inherits="NATHSHOP.Client.ChiTietSanPham" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="ChiTietSanPham.aspx.cs" Inherits="NATHSHOP.Form.ChiTietSanPham" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<br />

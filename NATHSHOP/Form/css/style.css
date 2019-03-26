@@ -10,6 +10,11 @@
     background-position: center;
 }
 
+.jumbotron {
+    height: 200px;
+}
+
+
 .nav-link {
     color: black;
 }

@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 
-namespace NATHSHOP.Client
+namespace NATHSHOP.Form
 {
     class DAL_KetNoi : Connect
     {

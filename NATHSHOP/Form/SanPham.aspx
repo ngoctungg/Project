@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="SanPham.aspx.cs" Inherits="NATHSHOP.Client.SanPham" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="SanPham.aspx.cs" Inherits="NATHSHOP.Form.SanPham" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
@@ -23,7 +23,9 @@
             <asp:DataList ID="dtlSanPham" DataKeyField="MASP" runat="server" RepeatColumns="4" CssClass="dtl" OnSelectedIndexChanged="dtlSanPham_SelectedIndexChanged" Width="100%">
                 <ItemTemplate>
                     <a href="<%#Eval("MaSP", "ChiTietSanPham.aspx?action=chitiet&id={0}") %>">
-                        <asp:Image ID="Image1" runat="server" Height="217px" Width="206px" ImageUrl='<%# Eval("HinhAnh") %>' /> </a>
+                        <asp:Image ID="Image1" runat="server" Height="217px" Width="206px" ImageUrl='<%# Eval("HinhAnh") %>' /> 
+
+                    </a>
                         <br />
                         <asp:Label ID="Label1" runat="server" Text='<%# Eval("TenSanPham") %>'></asp:Label>
                         <br />

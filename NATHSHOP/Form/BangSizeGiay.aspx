@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="BangSizeGiay.aspx.cs" Inherits="NATHSHOP.Client.BángSizeGiay" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="BangSizeGiay.aspx.cs" Inherits="NATHSHOP.Form.BángSizeGiay" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<link href="CSS/bangsizegiay.css" rel="stylesheet" />

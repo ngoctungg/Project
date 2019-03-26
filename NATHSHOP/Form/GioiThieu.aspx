@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="GioiThieu.aspx.cs" Inherits="NATHSHOP.Client.GioiThieu" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="GioiThieu.aspx.cs" Inherits="NATHSHOP.Form.GioiThieu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1 style="text-align: center">Nath-Sneaker

@@ -11,7 +11,7 @@ namespace NATHSHOP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("~/Client/Default.aspx");
+            Response.Redirect("~/Form/Default.aspx");
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace NATHSHOP.Client
+namespace NATHSHOP.Form
 {
     public partial class DatHang : System.Web.UI.Page
     {
@@ -17,7 +17,7 @@ namespace NATHSHOP.Client
             {
                 if (Session["GioHang"] == null)
                 {
-                    Response.Redirect("Client/Default.aspx");
+                    Response.Redirect("Form/Default.aspx");
                     return;
                 }
                 Session["LoaiSP"] = "thanhtoan";
@@ -138,8 +138,6 @@ namespace NATHSHOP.Client
                     Session["ChiTietHoaDon"] = chitietHD;
                     Session["GioHang"] = null;
                     Response.Redirect("thanhcong.html");
-
-
                 }
             }
         }
