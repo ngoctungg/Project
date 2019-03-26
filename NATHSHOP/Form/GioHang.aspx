@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Client/GiaoDien.Master" AutoEventWireup="true" CodeBehind="GioHang.aspx.cs" Inherits="NATHSHOP.Client.GioHang" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="GioHang.aspx.cs" Inherits="NATHSHOP.Client.GioHang" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<br />

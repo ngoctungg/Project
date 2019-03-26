@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Client/GiaoDien.Master" AutoEventWireup="true" CodeBehind="LienHe.aspx.cs" Inherits="NATHSHOP.Client.LienHe" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="LienHe.aspx.cs" Inherits="NATHSHOP.Client.LienHe" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="lienhe">
         <table>

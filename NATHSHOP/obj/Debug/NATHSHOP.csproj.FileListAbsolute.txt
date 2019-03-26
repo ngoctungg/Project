@@ -17,3 +17,10 @@ C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\NATHSHOP\obj\Debug\NATHSHOP.cspr
 C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\NATHSHOP\obj\Debug\NATHSHOP.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\NATHSHOP\obj\Debug\NATHSHOP.dll
 C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\NATHSHOP\obj\Debug\NATHSHOP.pdb
+C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\Project\NATHSHOP\bin\NATHSHOP.dll.config
+C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\Project\NATHSHOP\bin\NATHSHOP.dll
+C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\Project\NATHSHOP\bin\NATHSHOP.pdb
+C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\Project\NATHSHOP\obj\Debug\NATHSHOP.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\Project\NATHSHOP\obj\Debug\NATHSHOP.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\Project\NATHSHOP\obj\Debug\NATHSHOP.dll
+C:\Users\DELL\Desktop\Web-ban-giay\Web-ban-giay\Project\NATHSHOP\obj\Debug\NATHSHOP.pdb
