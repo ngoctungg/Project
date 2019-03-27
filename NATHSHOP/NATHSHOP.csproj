@@ -59,7 +59,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Form\BangSizeGiay.aspx" />
     <Content Include="Form\ChiTietSanPham.aspx" />
     <Content Include="Form\css\cart_shopping.css" />
     <Content Include="Form\css\Common.css" />
@@ -71,7 +70,6 @@
     <Content Include="Form\Default.aspx" />
     <Content Include="Form\DoiMatKhau.aspx" />
     <Content Include="Form\GioHang.aspx" />
-    <Content Include="Form\GioiThieu.aspx" />
     <Content Include="Form\Imagesize\dienthoai.jpg" />
     <Content Include="Form\Imagesize\hinhsize.jpg" />
     <Content Include="Form\Imagesize\Location-Icon-Blue.png" />
@@ -112,7 +110,6 @@
     <Content Include="Form\js\cart_shopping.js" />
     <Content Include="Form\js\jquery-1.8.0.min.js" />
     <Content Include="Form\js\jquery.touchwipe.1.1.1.js" />
-    <Content Include="Form\LienHe.aspx" />
     <Content Include="Form\SanPham.aspx" />
     <Content Include="Form\data\01.jpg" />
     <Content Include="Form\data\02.jpg" />
@@ -172,13 +169,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form\BangSizeGiay.aspx.cs">
-      <DependentUpon>BangSizeGiay.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Form\BangSizeGiay.aspx.designer.cs">
-      <DependentUpon>BangSizeGiay.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Form\ChiTietSanPham.aspx.cs">
       <DependentUpon>ChiTietSanPham.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -215,21 +205,7 @@
     <Compile Include="Form\GioHang.aspx.designer.cs">
       <DependentUpon>GioHang.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Form\GioiThieu.aspx.cs">
-      <DependentUpon>GioiThieu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Form\GioiThieu.aspx.designer.cs">
-      <DependentUpon>GioiThieu.aspx</DependentUpon>
-    </Compile>
     <Compile Include="DAL\HoaDon.cs" />
-    <Compile Include="Form\LienHe.aspx.cs">
-      <DependentUpon>LienHe.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Form\LienHe.aspx.designer.cs">
-      <DependentUpon>LienHe.aspx</DependentUpon>
-    </Compile>
     <Compile Include="DAL\Connect.cs" />
     <Compile Include="DAL\DAL_KetNoi.cs" />
     <Compile Include="Form\DangKi.aspx.cs">
