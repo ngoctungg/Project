@@ -58,24 +58,6 @@ namespace NATHSHOP.Form {
         protected global::System.Web.UI.WebControls.Button bttDN;
         
         /// <summary>
-        /// hplQuenmatkhau control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hplQuenmatkhau;
-        
-        /// <summary>
-        /// hplDangki control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hplDangki;
-        
-        /// <summary>
         /// lblThongbao control.
         /// </summary>
         /// <remarks>
@@ -101,5 +83,23 @@ namespace NATHSHOP.Form {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv4;
+        
+        /// <summary>
+        /// hplQuenmatkhau control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hplQuenmatkhau;
+        
+        /// <summary>
+        /// hplDangki control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hplDangki;
     }
 }

@@ -297,36 +297,13 @@
 				<asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolder2"></asp:ContentPlaceHolder>
 			</div>
 
-			<div class="footer">
-				<div class="lienket">
-					<br />
-					<h3>Liên Kết Sản Phẩm</h3>
-					<div class="lienket1">
-						<ul>
-							<li><a href="SanPham.aspx?url=Adidas">
-								<img src="Images/adidas1.jpg" style="height: 50px; width: 80px;" />
-							</a></li>
-						</ul>
-					</div>
-					<div class="lienket2">
-						<ul>
-							<li><a href="SanPham.aspx?url=Nike">
-								<img src="Images/nike.png" style="height: 50px; width: 80px;" />
-							</a>
-							</li>
-						</ul>
-					</div>
-					<div class="lienket3">
-						<ul>
-							<li><a href="SanPham.aspx?url=Jordan">
-								<img src="Images/jodan.png" style="height: 50px; width: 80px;" />
-							</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+		
 		</div>
-		<%--</div>--%>
+		    <footer class="container__footer"">
+        <div class="container" >
+            <h3 class="text-light">Something as like bitch, Mother Fucker</h3>
+        </div>
+    </footer>
 	</form>
 </body>
 </html>
