@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
 
 namespace NATHSHOP.Form
 {
@@ -15,7 +16,7 @@ namespace NATHSHOP.Form
         {
            if (!IsPostBack)
             {
-                string conn_str = "server=.;database=SPORTDATA;uid=Tung;pwd=tung;";
+                string conn_str = ConfigurationManager.ConnectionStrings["SPORTDATAConnectionString"].ConnectionString;
                 SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM SanPham where ThongTin ='Hàng Singapor'", conn_str);
                 DataSet ds = new DataSet();
                 da.Fill(ds, "SanPham");
