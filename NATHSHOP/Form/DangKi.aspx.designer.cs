@@ -7,8 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NATHSHOP.Form
-{
+namespace NATHSHOP.Form {
     
     
     public partial class DangKi {
