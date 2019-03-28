@@ -143,85 +143,6 @@
 		</ul>
 		<%--end shopping_cart--%>
 		<div class="main1">
-			<%--<div class="timkiem">
-				<ul>
-					<li>
-						<asp:TextBox runat="server" ID="txtTK" placeholder="Nhap Tim Kiem..." Height="24px" Width="196px" CssClass=""></asp:TextBox>
-						<asp:Button runat="server" ID="btnTK" 
-							Height="24px" Width="99px" CssClass="tu"/>
-						<asp:LinkButton runat="server" ID="btnTK"  OnClick="btnTK_Click" Height="24px" Width="99px">
-							 <i class="fas fa-search"></i>
-						</asp:LinkButton>
-					</li>
-					<li>
-						<a href="Default.aspx">
-							<img src="Images/logo.png" style="width: 386px" /></a>
-					</li>
-				</ul>
-			</div>--%>
-			<%--<div class="header">--%>
-			<%--<div class="thanhdangtim">
-					<ul>
-						<li>
-							<asp:Panel ID="pnlchuadangnhap" runat="server" Width="1196px">
-								<ul>
-									<li><a href="DangKi.aspx">Đăng Ký</a></li>
-									<li style="color: #ffffff; font-size: x-large; line-height: 0px;">||</li>
-									<li><a href="DangNhap.aspx">Đăng Nhập</a></li>
-								</ul>
-							</asp:Panel>
-						</li>
-						<li>
-							<asp:Panel ID="pnldadangnhap" CssClass="dnn" runat="server" Visible="false">
-								<ul>
-									<li>
-										<a href="DoiMatKhau.aspx" style="text-align: center; width: 89px;">Đổi mật khẩu</a>
-									</li>
-									<li>
-										<asp:LinkButton ID="hplLogout" runat="server" Text="Thoát" OnClick="hplLogout_Click" Width="80px" Height="16px"></asp:LinkButton>
-									</li>
-									<li>
-										<asp:Label runat="server" ID="lblDangNhap" Width="96px" Height="16px"></asp:Label>
-									</li>
-								</ul>
-							</asp:Panel>
-						</li>
-					</ul>
-				</div>--%>
-
-			<%--<div class="menu">
-					<ul>
-						<li>
-							<a href="Default.aspx">Trang Chủ</a>
-						</li>
-						<li>
-							<a href="GioiThieu.aspx">Giới Thiệu</a>
-						</li>
-						<li>
-							<a href="SanPham.aspx">Sản phẩm</a>
-							<ul>
-								<li>
-									<a href="SanPham.aspx?url=Adidas">Adidas</a>
-								</li>
-								<li>
-									<a href="SanPham.aspx?url=Nike">Nike</a>
-								</li>
-								<li>
-									<a href="SanPham.aspx?url=Jordan">Jordan</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="LienHe.aspx">Liên Hệ</a>
-						</li>
-
-						<li>
-							<a href="BangSizeGiay.aspx">Bảng Size Giày</a>
-						</li>
-
-					</ul>
-				</div>--%>
-
 			<nav class="navbar navbar-expand-sm bg-light">
 				<ul class="navbar-nav">
 					<li class="nav-item">
@@ -290,10 +211,10 @@
 				</div>
 			</header>
 
-			<div>
+			<div class="container">
 				<asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolder1"></asp:ContentPlaceHolder>
 			</div>
-			<div>
+			<div class="container">
 				<asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolder2"></asp:ContentPlaceHolder>
 			</div>
 
