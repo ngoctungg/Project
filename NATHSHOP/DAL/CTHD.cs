@@ -7,9 +7,16 @@ namespace NATHSHOP.Form
 {
     class CTHD
     {
-        private int MaHD;
+        private string MaHD;
 
-        public int MAHD
+        public int mkh;
+        public int MKH
+        {
+            get { return mkh; }
+            set { mkh = value; }
+        }
+
+        public string MAHD
         {
             get { return MaHD; }
             set { MaHD = value; }

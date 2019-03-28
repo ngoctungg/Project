@@ -7,9 +7,9 @@ namespace NATHSHOP.Form
 {
     class HoaDon
     {
-        private int MaHD;
+        private string MaHD;
 
-        public int MAHD
+        public string MAHD
         {
             get { return MaHD; }
             set { MaHD = value; }

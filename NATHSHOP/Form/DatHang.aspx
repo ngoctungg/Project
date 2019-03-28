@@ -102,14 +102,14 @@
 							ForeColor="Red"></asp:RequiredFieldValidator></td>
 				</tr>
 				<tr>
-					<td class="label_thanhtoan">Ngày giao hàng :</td>
-					<td class="textbox_thanhtoan">
+					<%--<td class="label_thanhtoan">Ngày giao hàng :</td>--%>
+					<%--<td class="textbox_thanhtoan">
 						<asp:TextBox ID="txtNgayGiao" runat="server" CssClass="textbox_thanhtoan"></asp:TextBox>
-					</td>
+					</td>--%>
 					<td>
-						<asp:RequiredFieldValidator ID="RequiredFiealdValidator2" runat="server"
+						<%--<asp:RequiredFieldValidator ID="RequiredFiealdValidator2" runat="server"
 							ErrorMessage="Vui lòng nhập ngày giao hàng bạn muốn"
-							ControlToValidate="txtNgayGiao" ForeColor="Red"></asp:RequiredFieldValidator>
+							ControlToValidate="txtNgayGiao" ForeColor="Red"></asp:RequiredFieldValidator>--%>
 						<br />
 						<asp:Label ID="lblNgayGiaoHang" runat="server" ForeColor="Red"></asp:Label>
 					</td>

@@ -60,25 +60,7 @@ namespace NATHSHOP.Form
                     DataRow dr = dt.NewRow();
                     dr["MaSP"] = sp.MaSP;
                     dr["TenSanPham"] = sp.TenSP;
-                    switch (sp.Masize)
-                    {
-                        case "38":
-                            dr["Size"] = "38";
-                            break;
-                        case "39":
-                            dr["Size"] = "39";
-                            break;
-                        case "40":
-                            dr["Size"] = "40";
-                            break;
-                        case "41":
-                            dr["Size"] = "41";
-                            break;
-                        case "42":
-                            dr["Size"] = "42";
-                            break;
-
-                    }
+                    dr["size"] = sp.Masize;
                     dr["SoLuong"] = sp.SoLuong;
                     dr["GiaBan"] = sp.GiaBan;
                     dt.Rows.Add(dr);
@@ -95,28 +77,27 @@ namespace NATHSHOP.Form
             if (Page.IsValid)
             {
 
-                if (DateTime.Now.CompareTo(DateTime.Parse(txtNgayGiao.Text.Trim())) > 0)
-                {
-                    lblNgayGiaoHang.Text = "Ngày giao hàng nhỏ hơn ngày hiện tại !";
-                    return;
-                }
+                //if (DateTime.Now.CompareTo(DateTime.Parse(txtNgayGiao.Text.Trim())) > 0)
+                //{
+                //    lblNgayGiaoHang.Text = "Ngày giao hàng nhỏ hơn ngày hiện tại !";
+                //    return;
+                //}
                 if (Session["TenDangNhap"] != null && Session["GioHang"] != null)
                 {
                     string uname = (string)Session["TenDangNhap"];
                     DAL_KetNoi dal = new DAL_KetNoi();
 
-
                     int MaKH = dal.LayMaKH(uname);
                     string ngaylaphd = DateTime.Now.ToShortDateString();
-                    string ngaygiaohang = txtNgayGiao.Text.Trim();
+                    //string ngaygiaohang = txtNgayGiao.Text.Trim();
                     string dc = txtDCNhan.Text.Trim();
 
                     // them hoa don
                     DAL_KetNoi dalhd = new DAL_KetNoi();
                     HoaDon hd = new HoaDon();
-                    hd.MAHD = int.Parse(DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString());
+                    hd.MAHD = Session.SessionID.ToString()+DateTime.Now.Millisecond+ DateTime.Now.Minute;
                     hd.NGAYLAPHD = ngaylaphd;
-                    hd.NGAYGIAOHANG = ngaygiaohang;
+                    hd.HOTEN =(string) Session["HoTen"];
                     hd.MAKH = MaKH;
                     hd.DIACHIGIAOHANG = dc;
                     dalhd.ThemHD(hd);
@@ -129,6 +110,7 @@ namespace NATHSHOP.Form
                         CTHD cthd = new CTHD();
                         cthd.MAHD = hd.MAHD;
                         cthd.MASP = sp.MaSP;
+                        cthd.MKH = hd.MAKH;
                         cthd.MASIZE = sp.Masize;
                         cthd.SOLUONG = sp.SoLuong;
                         cthd.DONGIA = sp.GiaBan;

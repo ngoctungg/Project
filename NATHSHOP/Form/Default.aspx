@@ -1,19 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Form/GiaoDien.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="NATHSHOP.Form.Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-	<div id="Slider">
-		<div id="wrap-slider">
-			<div id="slider">
-				<img class="slide-box" src="Images/1.jpg" />
-				<img class="slide-box" src="Images/2.jpg" />
-				<img class="slide-box" src="Images/3.jpg" />
-				<img class="slide-box" src="Images/4.jpg" />
-			</div>
-		</div>
-		<span id="prev-slide">Previous</span><span id="next-slide">Next</span>
-	</div>
-	<br />
-	<br />
 	<div class="danhmuc">
 		<div class="adidas">
 			<a href="SanPham.aspx?url=Adidas">

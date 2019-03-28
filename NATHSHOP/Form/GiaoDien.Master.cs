@@ -52,7 +52,7 @@ namespace NATHSHOP.Form
                 Session["TongSL"] = SoLuong;
                 Session["TongTien"] = TongTien;
                 lblSL.Text = SoLuong.ToString();
-                lblTongTien.Text =  TongTien.ToString();
+                lblTongTien.Text = TongTien.ToString();
             }
         }
         protected void btnTK_Click(object sender, EventArgs e)
@@ -74,19 +74,11 @@ namespace NATHSHOP.Form
 
         protected void hplLogout_Click(object sender, EventArgs e)
         {
-            try
-            {
                 Session["GioHang"] = null;
                 Session["TenDangNhap"] = null;
-                if (Session["TenDangNhap"] == null && Session["GioHang"] == null)
-                {
-                    pnlchuadangnhap.Visible = true;
-                    pnldadangnhap.Visible = false;
-                    Response.Redirect(Request.RawUrl, true);
-                }
-            }
-            catch (Exception ex)
-            { }
+                pnlchuadangnhap.Visible = true;
+                pnldadangnhap.Visible = false;
+                Response.Redirect("/Form/Default.aspx", true);
         }
     }
 }

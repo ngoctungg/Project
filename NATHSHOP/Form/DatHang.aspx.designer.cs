@@ -76,24 +76,6 @@ namespace NATHSHOP.Form {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
-        /// txtNgayGiao control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNgayGiao;
-        
-        /// <summary>
-        /// RequiredFiealdValidator2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFiealdValidator2;
-        
-        /// <summary>
         /// lblNgayGiaoHang control.
         /// </summary>
         /// <remarks>

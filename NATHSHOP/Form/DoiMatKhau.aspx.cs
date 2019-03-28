@@ -11,7 +11,8 @@ namespace NATHSHOP.Form
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            txtTK.Text = Session["TenDangNhap"].ToString();
+            txtTK.ReadOnly = true;
         }
 
         protected void btnDMK_Click(object sender, EventArgs e)
@@ -19,7 +20,7 @@ namespace NATHSHOP.Form
             try
             {
                 KhachHang kh = new KhachHang();
-                kh.TENDANGNHAP = txtTK.Text;
+                kh.TENDANGNHAP = Session["TenDangNhap"].ToString();
                 kh.MATKHAU = txtMKcu.Text;
                 kh.Newpass = txtMKmoi.Text;
                 Panel pnldadangnhap = (Panel)this.Master.FindControl("pnldadangnhap");
@@ -29,7 +30,9 @@ namespace NATHSHOP.Form
                     lblThongBao.Text = "Đổi thành công";
                 }
                 else
+                {
                     lblThongBao.Text = "Đổi thất bại";
+                }
             }
             catch
             { }

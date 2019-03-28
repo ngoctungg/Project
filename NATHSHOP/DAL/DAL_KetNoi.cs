@@ -157,8 +157,13 @@ namespace NATHSHOP.Form
         {
             DAL_KetNoi dalHD = new DAL_KetNoi();
             dalHD.Open();
-            string qry = "insert into HoaDon values(" + hd.MAHD + "," + hd.MAKH + ",'" + hd.NGAYLAPHD + "','" + hd.NGAYGIAOHANG + "','" + hd.DIACHIGIAOHANG + "','True')";
+            string qry = "  insert into HoaDon(MaHD,HoTen, NgayLapHD, NgayGH, DiaChiGH, TrangThai) values(@MaHD,@HoTen, @NgayLapHD, @NgayGH, @DiaChiGH,'false')";
             SqlCommand cmd = new SqlCommand(qry, dalHD.cnn);
+            cmd.Parameters.AddWithValue("@MaHD", hd.MAHD);
+            cmd.Parameters.AddWithValue("@HoTen", hd.HOTEN);
+            cmd.Parameters.AddWithValue("@NgayLapHD", hd.NGAYLAPHD);
+            cmd.Parameters.AddWithValue("@NgayGH", "");
+            cmd.Parameters.AddWithValue("@DiaChiGH", hd.DIACHIGIAOHANG);
             cmd.ExecuteNonQuery();
             cmd.Dispose();
             dalHD.Close();
@@ -168,8 +173,14 @@ namespace NATHSHOP.Form
         {
             DAL_KetNoi daoCTHD = new DAL_KetNoi();
             daoCTHD.Open();
-            string qry = "insert into ChiTietHoaDon(MaHD,MaSP,Size,SoLuong,DonGia,TinhTrang) values(" + cthd.MAHD + "," + cthd.MASP + ",'" + cthd.MASIZE + "'," + cthd.SOLUONG + "," + cthd.DONGIA + ",'false')";
+            string qry = "insert into ChiTietHoaDon(MaHD,MaSP,MaKH,Size,SoLuong,DonGia,TinhTrang) values(@MaHD,@MaSP,@MaKH,@Size,@SoLuong,@DonGia,'false')";
             SqlCommand cmd = new SqlCommand(qry, daoCTHD.cnn);
+            cmd.Parameters.AddWithValue("@MaHD",cthd.MAHD);
+            cmd.Parameters.AddWithValue("@MaSP",cthd.MASP);
+            cmd.Parameters.AddWithValue("@MaKH", cthd.MKH);
+            cmd.Parameters.AddWithValue("@Size",cthd.MASIZE);
+            cmd.Parameters.AddWithValue("@SoLuong",cthd.SOLUONG);
+            cmd.Parameters.AddWithValue("@DonGia",cthd.DONGIA);
             cmd.ExecuteNonQuery();
             cmd.Dispose();
             daoCTHD.Close();
@@ -180,12 +191,13 @@ namespace NATHSHOP.Form
             DAL_KetNoi dal = new DAL_KetNoi();
             dal.Open();
             SqlCommand cmd = new SqlCommand(qry, dal.cnn);
+            cmd.ExecuteNonQuery();
             cmd.Dispose();
             dal.Close();
 
         }
 
-        public static int LayMaHoaDon()
+        public static string LayMaHoaDon()
         {
             DAL_KetNoi dao = new DAL_KetNoi();
             dao.Open();
@@ -196,7 +208,7 @@ namespace NATHSHOP.Form
             if (reader.HasRows)
             {
                 reader.Read();
-                hd.MAHD = reader.GetInt32(0);
+                hd.MAHD = reader.GetString(0);
             }
             reader.Dispose();
             cmd.Dispose();

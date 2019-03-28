@@ -38,9 +38,7 @@ namespace NATHSHOP.Form
         {
                if (Request.QueryString["action"] == "add" && Session["TenDangNhap"] == null)
             {
-               
-                Response.Write("<Script>alert(\"Vui lòng đăng nhập , để sử dụng chức năng này .\")</Script>");
-                
+                Response.Redirect("/Form/DangNhap.aspx");
                 return ;
                 
             }

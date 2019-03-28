@@ -40,9 +40,6 @@
 					</div>
 					<!-- </form> -->
 					<p class="text-md-right">
-						<asp:HyperLink ID="hplQuenmatkhau" runat="server" NavigateUrl="QuenMatKhau.aspx">Quên mật khẩu ?</asp:HyperLink>
-					</p>
-					<p class="text-md-right">
 						<asp:HyperLink ID="hplDangki" runat="server" NavigateUrl="DangKi.aspx">Chưa có tài khoản ?</asp:HyperLink>
 					</p>
 				</div>

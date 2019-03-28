@@ -51,25 +51,7 @@ namespace NATHSHOP.Form
                     dr["MaSP"] = sp.MaSP;
                     dr["TenSanPham"] = sp.TenSP;
                     dr["HinhAnh"] = sp.HinhAnh;
-                    switch (sp.Masize)
-                    {
-                        case "38":
-                            dr["Size"] = "38";
-                            break;
-                        case "39":
-                            dr["Size"] = "39";
-                            break;
-                        case "40":
-                            dr["Size"] = "40";
-                            break;
-                        case "41":
-                            dr["Size"] = "41";
-                            break;
-                        case "42":
-                            dr["Size"] = "42";
-                            break;
-
-                    }
+                    dr["Size"] = sp.Masize;
                     dr["SoLuong"] = sp.SoLuong;
                     dr["GiaBan"] = sp.GiaBan;
                     TongTien += (sp.SoLuong * sp.GiaBan);
